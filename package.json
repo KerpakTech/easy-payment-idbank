@@ -1,0 +1,26 @@
+{
+  "name": "@easy-payment/idbank",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KerpakTech/easy-payment-idbank"
+  },
+  "keywords": [
+    "payment",
+    "gateway",
+    "easy-payment",
+    "idbank"
+  ],
+  "author": "KerpakTech",
+  "license": "MIT",
+  "dependencies": {
+    "@easy-payment/base": "git+https://git@github.com/KerpakTech/easy-payment-base.git#main",
+    "got": "^13.0.0"
+  }
+}
