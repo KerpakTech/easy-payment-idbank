@@ -13,11 +13,11 @@ const Gateways = require('easy-payment');
 const IDBANK = require('@easy-payment/idbank').gateway;
 
 const settings = {
+    ID_BANK_URL: 'https://ipay.arca.am/payment/rest/', // optional; defaults to this production URL
     USER_NAME_API: 'USER_NAME',
     PASSWORD_API: 'PASSWORD',
     USER_NAME_API_BINDING: 'USER_NAME_API_BINDING',
     PASSWORD_API_BINDING: 'PASSWORD_API_BINDING',
-
 };
 const client = Gateways.create(IDBANK, settings);
 
