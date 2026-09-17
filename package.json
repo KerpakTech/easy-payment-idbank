@@ -20,7 +20,7 @@
   "author": "KerpakTech",
   "license": "MIT",
   "dependencies": {
-    "@easy-payment/base": "git+https://git@github.com/KerpakTech/easy-payment-base.git#main",
+    "@easy-payment/base": "git+https://git@github.com/KerpakTech/easy-payment-base.git#563be0704e0c37bc220f4cddf54a3e5e37a912f2",
     "got": "^13.0.0"
   }
 }
